@@ -26,13 +26,13 @@ function calculate() {
   if (operator2 === "+") {
     result2 = result + num3; // Addition
   } else if (operator2 === "-") {
-    result = result - num3; // Subtraction
+    result2 = result - num3; // Subtraction
   } else if (operator2 === "*") {
-    result = result * num3; // Multiplication
+    result2 = result * num3; // Multiplication
   } else if (operator2 === "/") {
-    result = result / num3; // Division
+    result2 = result / num3; // Division
   } else if (operator2 === "%") {
-    result = result % num3; // Modulus (remainder)
+    result2 = result % num3; // Modulus (remainder)
   } else {
     result2 = "Invalid operator"; // Handle unexpected operator input
   }
