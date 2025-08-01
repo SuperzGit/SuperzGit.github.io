@@ -22,7 +22,7 @@ html {
 .HomePage-navbar
 {
   flex: 33%;
-  //border: 1px solid black;
+  border: 1px solid black;
   padding-left: 20px;
 }
 .About-navbar
@@ -32,13 +32,13 @@ html {
   padding-right: 30px;
   justify-content: flex-end;
 
-  //border:  1px solid black;
+  border:  1px solid black;
 
 }
 .HomePage
 {
   width: 140px;
-  //border: 1px solid black;
+  border: 1px solid black;
   
 }
 .HomePage:hover
@@ -49,12 +49,12 @@ html {
 .Business-navbar
 {
   padding-right: 20px;
-  //border: 1px solid black;
+  border: 1px solid black;
   
 }
 .Business-container
 {
-  //border: 1px solid black;
+  border: 1px solid black;
   padding-right: 30px;
 }
 .Business-navbar:hover {
@@ -83,13 +83,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  //border: 1px solid black;
+  border: 1px solid black;
   width: 45%;
 }
 .About-me
 {
   text-align: center;
-  //border: 1px solid black;
+  border: 1px solid black;
   width: 35%;
   padding: 10px;
   background-color: #c8e3d2;
