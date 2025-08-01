@@ -1,1 +1,113 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #cfdfe6;
+  color: #000000;
+  padding: 1px;
+
+
+  font-size: 15px;
+  font-weight: bold;
+
+
+  width: 99%;
+}
+
+.HomePage-navbar
+{
+  flex: 33%;
+  //border: 1px solid black;
+  padding-left: 20px;
+}
+.About-navbar
+{
+  display:flex;
+  flex: 66%;
+  padding-right: 30px;
+  justify-content: flex-end;
+
+  //border:  1px solid black;
+
+}
+.HomePage
+{
+  width: 140px;
+  //border: 1px solid black;
+  
+}
+.HomePage:hover
+{
+  color: #007bff;
+  cursor: pointer;
+}
+.Business-navbar
+{
+  padding-right: 20px;
+  //border: 1px solid black;
+  
+}
+.Business-container
+{
+  //border: 1px solid black;
+  padding-right: 30px;
+}
+.Business-navbar:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+.Contact-navbar:hover
+{
+  color: #007bff;
+  cursor: pointer;
+}
+
+.body-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #f0f0f0;
+  height: 400px;
+  width: 93.5%;
+  justify-content: space-around;
+}
+
+.display-images
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //border: 1px solid black;
+  width: 45%;
+}
+.About-me
+{
+  text-align: center;
+  //border: 1px solid black;
+  width: 35%;
+  padding: 10px;
+  background-color: #c8e3d2;
+}
+
+.left-arrowhead
+{
+  width: 20%;
+  border: 1px solid black;
+}
+.image
+{
+  width: 50%;
+  border: 1px solid black;
+}
+
+.right-arrowhead
+{
+  width: 20%;
+  border: 1px solid black;
+}
